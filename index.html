@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+   body{
+
+background: #424252;
+background: linear-gradient(90deg, rgba(66, 66, 82, 1) 0%, rgba(9, 9, 121, 1) 42%, rgba(123, 206, 227, 1) 98%, rgba(0, 212, 255, 1) 100%);
+        }
+  .form{
+ height: 500px;
+ width: 400px;
+ border: solid 2px;
+ margin-top: 30px;
+ text-align: center;
+ margin-left: 500px;
+}
+
+
+.form label{
+  font-size: 20px;
+}
+
+.form input{
+    box-sizing: content-box;
+}
+
+
+    </style>
+     
+      
+       
+        
+         <body>
+           <div class="form">
+    <h1>Book Us Now</h1>
+    <form action="https://formspree.io/f/xwpndggz" method="post">
+      
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+      <label for="phone">Contact Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="e.g. ‪+91-9876543214‬" required><br><br>
+
+      <label for="eventType">Event Type:</label>
+      <select id="eventType" name="event_type" required><br><br>
+        <option value="" disabled selected>Select an option</option>
+        <option value="Concert">Concert</option>
+        <option value="Private Party">Private Party</option>
+        <option value="Festival">Festival</option>
+        <option value="Corporate Event">Corporate Event</option>
+        <option value="Other">Other</option>
+      </select><br><br>
+
+      <label for="date">Event Date:</label>
+      <input type="date" id="date" 
+      name="event_date" required> <br><br>
+
+      <label for="location">Event Location:</label>
+      <input type="text" id="location" name="event_location" placeholder="City or venue" required><br><br>
+
+      <label for="message">Additional Message:</label>
+      <textarea id="message" name="message" placeholder="Any special notes or requests..."></textarea><br><br>
+
+      <button type="submit">Submit Booking Request</button>
+    </form>
+  </div>
+  </body>
+
+</body>
+</html>
